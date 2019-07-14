@@ -1,4 +1,4 @@
-# RELEVANT data frames created in this project and RELEVANT data it contains
+# Data frames created in this project and RELEVANT data it contains
 
 * activity_labels
     * data frame of 6 possible activities:

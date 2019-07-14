@@ -115,5 +115,6 @@ names(data_set_mean_std) <- gsub("fBodyGyro", "frequencyBodyGyro", names(data_se
 tidy_data <- data_set_mean_std %>%
         group_by(Subject, Activity) %>%
         summarize_each(mean)
+tidy_data
 write.table(tidy_data, "TidyData.txt", row.names = FALSE)
 

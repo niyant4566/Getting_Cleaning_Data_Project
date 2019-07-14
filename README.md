@@ -2,9 +2,9 @@
 
 # Files in this Repository
 
-*README.md - This file!
-*CodeBook.md - Describes the variables and data
-*run_analysis.R - The code to tidy the given data
+* README.md - This file!
+* CodeBook.md - Describes the variables and data
+* run_analysis.R - The code to tidy the given data
 
 Step 1: First, read all the files that have been provided
 1. For simplicity, the names of the data frames are the same as the names of the files read (e.g. the contents of the file "activity_labels.txt" formed the data frame "activity_labels"
@@ -27,6 +27,6 @@ Step 6: Referring to another data frame to see which number means which activity
 Step 7: We finally create our tidy data by separating the data into groups of subjects then the activities performed. Then we calculate the mean of every measurement collected that corresponds to each combination of subject and activity. We create a file "TidyData.txt" that will hold this clean data.
 
 # Notes:
-*Unfortunately, some measurements that were collected were given the same name. We get around this problem by using the function make.unique on the names of all the columns of the relevant data collected after step 5. This adds ".1" the first time the same measurement appears, ".2" the next time, and so on.
+* Unfortunately, some measurements that were collected were given the same name. We get around this problem by using the function make.unique on the names of all the columns of the relevant data collected after step 5. This adds ".1" the first time the same measurement appears, ".2" the next time, and so on.
 
-*Packages were installed in the console of RStudio as required.
+* Packages were installed in the console of RStudio as required.

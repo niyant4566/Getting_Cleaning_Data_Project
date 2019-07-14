@@ -26,12 +26,12 @@
     * See test_label
     
 * sub_lab_set_test
-      * combined columns of subject_test,test_label, and test_set to form one test data frame of relevant data
+    * combined columns of subject_test,test_label, and test_set to form one test data frame of relevant data
 * sub_lab_set_train
-      * combined columns of subject_train, train_label, and train_set to form one train data frame of relevant data
+    * combined columns of subject_train, train_label, and train_set to form one train data frame of relevant data
 * sub_lab_set_both
-      * combination of all rows of sub_lab_set_test and sub_lab_set_train to form one large merged dataset of relevant data
+    * combination of all rows of sub_lab_set_test and sub_lab_set_train to form one large merged dataset of relevant data
 * data_set_mean_std
-      * subset of sub_lab_set_both only including observations of mean or standard deviation of collected data
+    * subset of sub_lab_set_both only including observations of mean or standard deviation of collected data
 * tidy_data
     * complete clean data consisting of average of each measurement for each subject and each activity performed by said subject.
